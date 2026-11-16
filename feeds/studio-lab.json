@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0-alpha.35.37",
+  "release_id": "35AK",
+  "notes": "35AK: corrige pesquisa de curiosidades musicais, prazos de adiamento e recuperação única de pesquisas legadas esgotadas. Preserva idiomas, personalidades, cotas e verificação de evidência. Inclui ponte GitHub com fallback Drive. Builds Mac/Windows e regressões locais; execução Windows e resultado no ar dependem de validação real. Nenhuma instalação ou reinício da rádio executado pela publicação.",
+  "pub_date": "2026-11-16T06:01:58.538190Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.37/StudioPro-AI-Lab_0.1.0-alpha.35.37_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUHdRcXZzQTZTbytvRXJkNmNGTzJqQTNJWVNZMlcxekdTLzdMekR2TkJXbGp2OGhWd1dMeVJLTnVOWTRZbTZxWkNaK2VxSlYxd2JrcW0vMSt0SWFKeXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODA4ODA5CWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS4zN19hYXJjaDY0LmFwcC50YXIuZ3oKQXUzekFFMFQzWUcxcmNTMnVRU2tidnl4MWl6a3B6VUlCZnV3cFVVcy9DSGZjdUowVjYzK21oR0FIaDZzRlFDbWV1Z0htbzBLeEl5QUdWSVU5cDN1Q3c9PQo=",
+      "sha256": "132d2ca5a108d5917bbb89de101807b0c80625cbedff1a54b20c541770117a9c",
+      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.37_aarch64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.37/StudioPro-AI-Lab_0.1.0-alpha.35.37_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDNJZCtSRkQ4RFB1Ym1xd0VTYnRqanpiOFMwdEMxSXVSV2VYTVZONENxeXZ0dXVqQzFuZnpSYVNMRWEwZ0lWaGdkZG10azFjaEZZSkRybXQ4cHgxRFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODA4ODA5CWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS4zN194NjQtc2V0dXAubnNpcy56aXAKcW9EQUVWMTE4SnJKQlQwR0YrOXNhU1dINEViYTdJT0J3Q1dXOXNvWEZCd3VpRHg4aVNROEhWUkxDOGc3VVc4YW9EVEtadjFkekJoY2hYdmU2OHVBQnc9PQo=",
+      "sha256": "67dcaa0778e05fdc33da2db5827236ecd3a0de65dc38816573f4acd4e33f776f",
+      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.37_x64-setup.nsis.zip"
+    }
+  },
+  "build_date": "2026-11-16T06:01:58.538190Z"
+}
