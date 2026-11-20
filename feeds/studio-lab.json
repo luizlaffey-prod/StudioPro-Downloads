@@ -1,21 +1,21 @@
 {
-  "version": "0.1.0-alpha.35.48",
-  "release_id": "35AV",
-  "notes": "StudioPro 35AV — player: identidade de fonte/deck, metadados e Next\n\nBase35AU; recorte de quatro produtos. Atualizações de metadados preservam o deck audível; Next encerra somente o predecessor cancelado correspondente. Sem novas alterações Remote,ProCue,promoções ouAURA.\n\nFonte exata: tipos e builds Mac/Windows aprovados; suíte5109PASS,8falhaspreexistentes,11SKIP. App QA Tauri/WKWebView separado:224verificações,player real,mídia e portas sintéticas.33testes segurança/restauração sintética. Windowsruntime,áudio24h e downgrade real ainda não executados; cópiafria extra bloqueada porEPERM,semcontorno.\n\nPacotes oficiaisGitHub e assinaturas do atualizador verificados. Macad-hoc/semnotarização; WindowssemAuthenticode. Rollback35AU/35ATpreservado. Atualização automática habilitada instala/reinicia pelo fluxo existente do aplicativo.",
-  "pub_date": "2026-11-20T04:19:02.281069Z",
+  "version": "0.1.0-alpha.35.49",
+  "release_id": "35AW",
+  "notes": "StudioPro AI Lab35AW —0.1.0-alpha.35.49\n\nCorreções de acompanhamento de entregas no Remote Manager0.3.76 e diagnóstico passivo de aplicação no StudioPro. Inclui distinção de espera por horário/ponto seguro, commit aguardando snapshot/ACK e confirmação terminal. Não reenvia configurações automaticamente e preserva as regras de segurança existentes.\n\nAberturas: aviso informativo quando uma regra está sem horários; diagnóstico de configuração e ledger nos relatórios locais. Nada agenda horários por conta própria. A falha histórica da cabeça11h permanece sem causa comprovada; esta release não declara esse incidente corrigido.\n\nDistribuição oficial GitHub apenas instaladores, assinaturas e documentos. Código permanece privado. Rollback35AV/0.1.0-alpha.35.48 preservado.\n\nNão é necessário remover plug-ins, presets, rascunhos, fotos ou histórico. Não limpar dados. Instalação/rollback somente com cópia de segurança e janela adequada; esta publicação não força reinício ou instalação na rádio.\n\nLimites de validação: testes automatizados e QA nativo Mac em namespace sintético isolado. Windows compilado por cross-build; execução real Windows e aceitação acústica dependem de validação do operador. Portas físicas de áudio e transporte do QA são modeladas; não são prova do ar. macOS ad hoc, sem Developer ID/notarização. Windows sem assinatura Authenticode. Assinaturas criptográficas do atualizador usam a âncora existente.",
+  "pub_date": "2026-11-20T20:43:45.978144Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.48/StudioPro-AI-Lab_0.1.0-alpha.35.48_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDYzUjRIVGM0VzRmZ1krUkRpN2NiVVQvU1lVQTBVTXB1dlZFVGJxbVZvQXFiZzNoOEgvVnk0MFZlKy8ya2pzWVRSTDlMSWJPcnJINlN1NEt2VDdTQlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ2ODAxCWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS40OF9hYXJjaDY0LmFwcC50YXIuZ3oKekZpblM4dytFYVRhSTFyKzloYnNWTTF3eFNRTC9rQXJ4dWt3N1YrSVJrMGtJbWl0QzZwWFl5cUN1V240TkFyQWx3UytZNGpvMUhqK01KbG96MHdYQVE9PQo=",
-      "sha256": "52e4e049f68563dd7573bfbca4f98ca53840d0ef24b294586e226413d18a6178",
-      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.48_aarch64.app.tar.gz"
+      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.49/StudioPro-AI-Lab_0.1.0-alpha.35.49_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDRGR2lpUkRYUEF0RHZlYkx6UHNNZ25OOTdXby9VQXE3WkI5K0hNYlJrM3lRTU1KOVh0ZUNKbVNJSlo3SXZadjdxekVqRTBZOC95KzI2cWNmTkxaYWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjA3MzA2CWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS40OV9hYXJjaDY0LmFwcC50YXIuZ3oKTm9ncjBCeFF4UVZuL3ZnODNHVEF5ZmNrY0pjL3BOTkUrTytFb3BvWkVtK1NkYlJwYXNBUmtkTE1ZajNGa3FDemJ4SHlBUFBKZ2hpVFgyZ205VnJPREE9PQo=",
+      "sha256": "1cf4f659c2c0aaff59e338d25a22c38e612f6a447793a67b1ffa334b5c48ce32",
+      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.49_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.48/StudioPro-AI-Lab_0.1.0-alpha.35.48_x64-setup.nsis.zip",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDhpTUpDZWg4M25UNDR4TFAyRTVYeitWQWRTU1E3Z1I4UUI5MDJabWdhR3ZycEl0bFhQRngyRGR4UjRQQTNzVEpUVHcxbEZoSVJvS1B2aGZ4aXlqQWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ2ODAxCWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS40OF94NjQtc2V0dXAubnNpcy56aXAKK3pEVXlWSWtXeTUzR2RFdDRDMHpGdEpiWE9wejJRbGxZWDZnbE04K25zZHY5dTlvTTRvZVgrN0lBbEdKYTdpazlhZ1VhVzBzM2d1THJhVEpWTHVKRGc9PQo=",
-      "sha256": "252a3f858b350b43fd2b06e4acd8d55c6d0352c8ff7baf61d538e87ac3896eda",
-      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.48_x64-setup.nsis.zip"
+      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.49/StudioPro-AI-Lab_0.1.0-alpha.35.49_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDJCeDR5SktmRkJDSFFjemE4ZjZTRXMzdEg4d3NpNVFCbEErNDJLS0hOQmpwNzY4bHVzVlAxemFDdVpNaStMNkhUM1lQbXFaVmRUVmNEcnBheGlxbUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjA3MzA2CWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS40OV94NjQtc2V0dXAubnNpcy56aXAKTStsTVZpa2dJd0VubG15dTdpQmNpd3V4TUwxc0xKOXZoL0hSZjB3SEtoR3BlTVFFMnB4ZFNFaVRCQ0ZyVVY0WjI0MXZhMDhLWm00NGlwUFJSYnVjQVE9PQo=",
+      "sha256": "80e3c00eb02139a243e93af77c6e1806b2b47f0dff0c41dd09e5299304ea3598",
+      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.49_x64-setup.nsis.zip"
     }
   },
-  "build_date": "2026-11-20T04:19:02.281069Z"
+  "build_date": "2026-11-20T20:43:45.978144Z"
 }
