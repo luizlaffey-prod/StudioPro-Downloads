@@ -1,21 +1,21 @@
 {
-  "version": "0.1.0-alpha.35.53",
-  "release_id": "35BA",
-  "notes": "StudioPro 35BA / 0.1.0-alpha.35.53\n\nImpede a música de antecipar o EOF do fechamento comercial sem Return quando uma cabeça já está pronta e armada. Corrige ambiguidade de múltiplas cabeças na mesma saída. Preserva a operação manual, Return normal, travas e spots.\n\n444 testes e typecheck PASS. Windows runtime e validação on-air permanecem separados. Rollback 35AZ preservado; módulos inalterados.",
-  "pub_date": "2026-11-23T16:51:08.269861Z",
+  "version": "0.1.0-alpha.35.54",
+  "release_id": "35BB",
+  "notes": "StudioPro 35BB / 0.1.0-alpha.35.54\n\nCabeça de hora com uma única vinheta de topo no lugar do fechamento comercial elegível quando a cabeça está pronta, trilha acompanhando a locução e cauda antes da música. Corrige a limpeza que removia a voz gerada e a introdução da trilha. Preserva saída normal fora da elegibilidade, spots, trava de entrada, configurações e continuidade quando a cabeça falha ou não está pronta. Evita restaurar fechamento antigo após reinício tardio.\n\n658 testes e typecheck aprovados. Aceite Windows e escuta no ar devem ser confirmados separadamente. Módulos inalterados. Rollback 35BA preservado.",
+  "pub_date": "2026-11-24T06:00:43.218094Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.53/StudioPro-AI-Lab_0.1.0-alpha.35.53_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUHkrTnJhNEozVTVtaS9DaFl4MzlZc1V5d3YwRUxZT3NENTAzRFA5bWdLL1dxeVFGdWhOYUVWb2x0eTRYVXdkTGRxMXUyMEtTdGdqZXA5di9OblBSQlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDUyNjAxCWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS41M19hYXJjaDY0LmFwcC50YXIuZ3oKc2ZwN2pMektwT2VmR2xUVjZMZjQrUys1RU9VTWgwa0lJUnFMMDlTRGxjOE1FVHVBY1hWc3NxcGhsV2hFK2Rqc29icmlzampCRlVuTTd5Q1l0STZsQWc9PQo=",
-      "sha256": "11b42e936d81451d89c48aae482edb2bd19355e3a456c0589dd84a31a5a8d091",
-      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.53_aarch64.app.tar.gz"
+      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.54/StudioPro-AI-Lab_0.1.0-alpha.35.54_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUHpnaWk5OWwwc0pnSUZsMXhhb2xhN3lWNlA4WmpKVVJFd3FNWFgySHgyeU5ucDF1VDc2MHFxK0RuQTI0NVJhSkZlMGwzZkRxeTZNeUhRcEFVSUsyMVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTAwMDA0CWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS41NF9hYXJjaDY0LmFwcC50YXIuZ3oKSUc2MmNvMGR5Q25DYUEyTGlTTjVuRExUQmJQUU82SnYzTEIvWEtMU3Z6d21Lb0NueGdtc2Y2TGR6K2tJTm1RMEdOeWltN1pRM3UwM1FPNWU0a1dNQlE9PQo=",
+      "sha256": "443b1f120177af2d1c4d965491ba802ddbe798765e4e80e0593d76b2f942d635",
+      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.54_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.53/StudioPro-AI-Lab_0.1.0-alpha.35.53_x64-setup.nsis.zip",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDBqOWo1WDF4UlNuZkZ0N1NDaFZqUmdKNWVidWUwTmF5bTRTN1Vaeks1S2I3eWZpZDk5d1FXdHoyRkZsQTRjRVlFZGRJYU0vSEhCb0hjRStyUDRIZndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDUyNjAxCWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS41M194NjQtc2V0dXAubnNpcy56aXAKWlg4VlFnaGR5MTIrdGxzcEdxbVRjMS9wWVJTY1dWR1NoK0p6UDRUNlMvQzI5SGtnS01YT0tmcG5UOTBZSno4YU1qV25TWEpRWWVHV29DNFpYNDF6Qnc9PQo=",
-      "sha256": "d2b6bf0f680776dcdb4e95fb7d53e34398164cc1144ac22f49f944a860e4af83",
-      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.53_x64-setup.nsis.zip"
+      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.54/StudioPro-AI-Lab_0.1.0-alpha.35.54_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUHh3Qm5xV0ZrSmJFS2czSzJRaHZKbDJvdy9VUnE3ejd1eCsvZFZPL3YvSG9IbG1IOTVLMWFnZk1CdGgrbFRSTjlrcitqanZDOExzM3Vma0JJdjd2c3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTAwMDA0CWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS41NF94NjQtc2V0dXAubnNpcy56aXAKNUFSd2x5N0I3RVYwSGE2RmN0VGxFVnh3dHlVVmthL3pGUE9aZzdYV0Y1THhjdm9wckZmVUNxMU1qNmk1Z3JvRkswclBCQXA0NUo1a2Z2Tll0cXMxQlE9PQo=",
+      "sha256": "db569f146c2a9c33e6bdb8ba2aee64dd85b9b82182abd44fbd7cd20de46a1099",
+      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.54_x64-setup.nsis.zip"
     }
   },
-  "build_date": "2026-11-23T16:51:08.269861Z"
+  "build_date": "2026-11-24T06:00:43.218094Z"
 }
