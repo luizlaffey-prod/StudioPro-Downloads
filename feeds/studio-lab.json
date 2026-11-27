@@ -1,21 +1,21 @@
 {
-  "version": "0.1.0-alpha.35.59",
-  "release_id": "35BG",
-  "notes": "Cabeças de hora: continuidade horária e contexto validado coerentes, com validade da fala e diagnóstico específico. Mantém mix1–1,5s e assinatura integral noOUT. Sem mudanças de grade,assets,rotação ou módulos.",
-  "pub_date": "2026-11-26T04:58:19.928389Z",
+  "version": "0.1.0-alpha.35.60",
+  "release_id": "35BH",
+  "notes": "Cabeça de hora em nível normal desde o início; fade apenas na vinheta que sai, com sobreposição de referência1-1,5s. Preserva locução completa, assinatura noOUT e mix para música. Sem mudanças de grade, assets ou outros módulos.",
+  "pub_date": "2026-11-27T02:34:03.154079Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.59/StudioPro-AI-Lab_0.1.0-alpha.35.59_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDhReTJkSjMwVWgvRnNLckR3cGttOHBUV25NWXVTbVJBaUVvS1A5L1pKN3BXTFZYa0daQVBHYnNZaUdZOEdjV2tySmc1T05lWmNGMlZIdWxXM25TWUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY5MDI5CWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS41OV9hYXJjaDY0LmFwcC50YXIuZ3oKcnJ3Z1R1TDd1OW0wU0N3ODl2NmFKbXlyRmhvR2RwRVZ1WGZ1TDJhdHAzbnNCNWJOM21DVWRyV1lKQUVFOFFxYkk1aUxNWGhXQldiVVdSNjVpZUhGRFE9PQo=",
-      "sha256": "37b35b7fd452e2ecd207e72bc0c57c9933f717a5ec4f6b68f4dd10cacacf33b1",
-      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.59_aarch64.app.tar.gz"
+      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.60/StudioPro-AI-Lab_0.1.0-alpha.35.60_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDVwbkFSZmc2cHl6Q3dIa05XMm9MeWprRlZzWjVBYWJIaTVubW42eWRsM0RvWWJqaEhTeTBCN2c5TWM0OUs1NGR3UDJ3ZGxqVVV4K04xZ2VHT2tvK3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQ1ODEyCWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS42MF9hYXJjaDY0LmFwcC50YXIuZ3oKTFhsZCtLT0pHRmtnMnJFS0ZTdEpIc2g5YU1YcFh2OVpLT0dLcjRMRFNvQ0U1aUZUNnlVRUFZcDBUb3pQbFBtcFlrOFFUNXdDQXRBNE5KV0lPRkV4QWc9PQo=",
+      "sha256": "e41c2e7dacf5a91012d5a897116931ace2ca121804d086aff354ed8f89cc8768",
+      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.60_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.59/StudioPro-AI-Lab_0.1.0-alpha.35.59_x64-setup.nsis.zip",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDRaUlNBSGZwOUxoV09qUXNkZXA0dUJSRjl1cE9NVFB6blNubi8xeU5OUnBpQklYdXBKbjJGWnJlUXVKWjVFaXJIOEpJbWZaN2tHdkx0NEs4aVVDdHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY5MDMwCWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS41OV94NjQtc2V0dXAubnNpcy56aXAKRUV1TnQ2RkRvL2kvbHpYQTluS3FNVmZXNUNvTFZCMGY5RW5XTU0wSi9HMEozcHk2L0QrVFpRMEltRjNTZlk4ZmZxclNKM0hPWHVkcUdrYWJTNGgrQ2c9PQo=",
-      "sha256": "862da5d0e0dbc51587987bb1563082ce2003573e1dea9cde413e38c705b9f2ab",
-      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.59_x64-setup.nsis.zip"
+      "url": "https://github.com/luizlaffey-prod/StudioPro-Downloads/releases/download/studio-0.1.0-alpha.35.60/StudioPro-AI-Lab_0.1.0-alpha.35.60_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSE9pQld2akwrUDMxR2JHek1GUzFZTGtqamVDNEdsMGFLVmRFc1c2dnZRN2IrcUlnTUFSUnhweWdOL1hBMUFnckhoYm16ZjI0VVJsQktqQkNVQzNWTkZTT3BJaVFpM0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQ1ODEzCWZpbGU6U3R1ZGlvUHJvLUFJLUxhYl8wLjEuMC1hbHBoYS4zNS42MF94NjQtc2V0dXAubnNpcy56aXAKWFNVWTRwRkFWNUxOZ29CdkJNb1gxZ1VjK1Njb0cwcTZodnpnb3lFTHY1QzNuK0VqTi9lZFl2TDZCcGlWL1BnY2l1TW1LYjY1UndSZWVkRWpiZjFsQ1E9PQo=",
+      "sha256": "c9a97e0a64ddbd67c59a3af049417030de4f24a443efa0374caffe7d5f44f837",
+      "package": "StudioPro-AI-Lab_0.1.0-alpha.35.60_x64-setup.nsis.zip"
     }
   },
-  "build_date": "2026-11-26T04:58:19.928409Z"
+  "build_date": "2026-11-27T02:34:03.154095Z"
 }
